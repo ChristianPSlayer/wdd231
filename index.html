@@ -1,11 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello Friends</title>
+    <meta name="description" content="Course Home Page">
+    <meta name="author" content="Christian Pena">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+
+
+
+    <link rel="stylesheet" href="Styles/small.css">
+    <title>WDD 231 - Home</title>
 </head>
+
 <body>
-    
+    <header>
+        <div class="logo-container">
+            <img src="images/laptop-.svg" alt="Site Logo">
+            <span>Christian Pena</span>
+        </div>
+        <button id="menu" aria-label="Toggle Navigation">
+            ☰
+        </button>
+
+
+
+    </header>
+    <nav id="Menu">
+        <ul>
+            <li> <a href="index.html" class="active">Home</a></li>
+            <li><a href="chamber.html">Chamber</a></li>
+            <li><a href="final/index.html">Final</a></li>
+        </ul>
+
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+        <section class="card">
+            <h2>About Me</h2>
+
+            <p>My name is Christian. I'm from Cúcuta, Norte de Santander. I like heavy metal and classic rock, and I
+                also enjoy learning new things in a structured way. My favorite instrument is the electric guitar. I
+                like cats and dogs—in fact,
+                I have one cat and four dogs. I really enjoy hiking and exploring the mountains.</p>
+        </section>
+
+        <section class="card">
+            <h2>Student Photo</h2>
+
+            <img src="images/profile.jpeg" alt="Photo Profile">
+
+        </section>
+
+        <section class="card courses">
+            <h2>Web Certificate Courses</h2>
+
+            <div class="filter-buttons">
+                <button id="allbtn">All</button>
+                <button id="csebtn">CSE</button>
+                <button id="wddbtn">WDD</button>
+            </div>
+
+            <div class="course-container"></div>
+            <p id="credits"></p>
+
+        </section>
+
+
+    </main>
+    <footer>
+        <div class="socials">
+            <a href="https://github.com/TU-USUARIO" target="_blank">GitHub</a>
+
+            <a href="https://linkedin.com/in/TU-USUARIO" target="_blank">LinkedIn</a>
+
+            <a href="https://x.com/TU-USUARIO" target="_blank">X</a>
+        </div>
+
+        <p>
+            &copy;
+            <span id="currentyear"></span>
+            Christian Pena | Virginia, USA
+        </p>
+
+        <p id="lastModified"></p>
+
+
+    </footer>
 </body>
+
 </html>

@@ -1,0 +1,216 @@
+/* Google Fonts */
+
+:root{
+    --primary-color: #1d3557;
+    --secondary-color: #457b9d;
+    --accent-color: #2a9d8f;
+    --light-color: #f1f5f9;
+   --dark-color: #222;
+    --white: #FFFFFF;
+    --border-radius: 10px;
+    --shadow: 0 3px 10px rgba(0,0,0, .15)
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background: var(--light-color);
+    color: var(--dark-color);
+    line-height: 1.6;
+
+    ;
+}
+img{
+    max-width:100% ;
+    display: block;
+}
+a{
+    text-decoration: none;
+    
+}
+ul{
+    list-style: none;
+}
+
+/* Header **/
+
+header{
+background: var(--primary-color);
+color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1rem;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+.logo-container img{
+    width: 50px;
+}
+
+.logo-container span{
+    font-size: 1.3rem;
+    font-weight: 600;
+
+}
+.card img{
+    width: 85%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border-radius:8px ;
+}
+
+#menu{
+    font-size: 2rem;
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+/***** NAvigation ******/
+nav{
+    display: none;
+    background: var(--primary-color);
+
+}
+nav.open{
+    display: block;
+}
+nav ul{
+    display: flex;
+    flex-direction: column;
+}
+nav a{
+    display: block;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a:hover{
+    background: var(--secondary-color);
+}
+
+.active{
+    background: var(--accent-color);
+}
+
+/******  Main *****/
+main{
+    padding: 1rem;
+}
+
+h1{
+    margin-bottom: 1rem 1.5rem;
+}
+.card{
+    background: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+.card h2{
+    background: var(--primary-color);
+    color: white;
+    padding: .75rem;
+    text-align: center;
+    
+}
+.card p{
+    padding: 1.2rem;
+}
+
+
+/** Coursi Buttons ***/
+
+.filter-buttons{
+    display: flex;
+    justify-content: center;
+    gap: .75rem;
+    padding: 1rem;
+}
+
+.filter-buttons button{
+   
+    flex: 1;
+    padding: .8rem;
+    border: none;
+    border-radius: 8px;
+    background: var(--primary-color);
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+    font-weight: 600;
+}
+
+.filter-buttons button:hover {
+    background: var(--secondary-color);
+
+}
+
+/*****  Course Cards ******/
+.course-container{
+    display: grid;
+    gap: .75rem;
+    padding: 1rem;
+}
+
+.course-card {
+    padding: .9rem;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 600;
+
+}
+
+.completed{
+    background: #2a9d8f;
+    color: white;
+
+}
+.not-completed {
+    background: #d9d9d9;
+}
+
+#credits {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+
+/***** Footer ********/
+footer{
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+
+}
+.socials{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+
+}
+.socials a {
+    color: white;
+    font-weight: 600;
+}
+
+footer p {
+    margin: .4rem 0;
+}
