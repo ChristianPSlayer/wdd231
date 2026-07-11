@@ -88,6 +88,19 @@ nav{
 nav.open{
     display: block;
 }
+
+nav {
+    display: none;
+}
+
+nav.open {
+    display: block;
+}
+
+
+
+
+
 nav ul{
     display: flex;
     flex-direction: column;
@@ -213,4 +226,14 @@ footer{
 
 footer p {
     margin: .4rem 0;
+}
+
+
+/***** Navigation */////
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "✖";
 }
