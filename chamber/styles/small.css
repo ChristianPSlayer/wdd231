@@ -1,0 +1,303 @@
+
+
+
+:root {
+    --primary-color: #0F4C81;
+    --secondary-color: #2E8B57;
+    --accent-color: #EAF7F2;
+
+    --heading-color: #083358;
+    --text-color: #333333;
+
+    --background-color: #F8FAFC;
+    --card-background: #FFFFFF;
+
+    --border-color: #D6E4E5;
+
+    --max-width: 1200px;
+
+    --font-family: "Poppins", sans-serif;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+main {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--heading-color);
+}
+
+section {
+    margin: 1rem 0;
+}
+
+
+
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.logo p {
+    font-size: .9rem;
+}
+
+
+
+/*HAMBURGER BUTTON */
+
+#menu {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+/* --NAVIGATION--- */
+
+nav {
+    display: none;
+}
+
+nav.open {
+    display: block;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    display: block;
+    padding: 1rem;
+    color: white;
+    font-weight: 600;
+}
+
+nav a:hover {
+    background-color: var(--secondary-color);
+}
+
+.active {
+    background-color: var(--secondary-color);
+}
+
+
+
+/* ---MAIN-- */
+
+main h2 {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+
+
+
+/* --VIEW BUTTONS-- */
+
+.view-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.view-buttons button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: .8rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color .3s;
+}
+
+.view-buttons button:hover {
+    background-color: var(--secondary-color);
+}
+
+
+
+
+
+
+  
+
+
+.grid-view {
+    display: grid;
+    gap: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .grid-view {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+
+#members section {
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--card-background);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+}
+
+#members img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#members h3 {
+    color: var(--primary-color);
+    margin-bottom: .75rem;
+}
+
+#members p {
+    margin: .4rem 0;
+}
+
+#members a {
+    display: inline-block;
+
+    margin-top: .8rem;
+
+    padding: .6rem 1rem;
+
+    background-color: var(--secondary-color);
+
+    color: white;
+
+    border-radius: 6px;
+}
+
+#members a:hover {
+    background-color: var(--primary-color);
+}
+
+
+/* list view */
+
+
+.list-view {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.list-view section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .5rem;
+
+    width: 100%;
+    padding: 1rem;
+    text-align: left;
+}
+
+.list-view img {
+    display: none;
+}
+.list-view h3,
+.list-view p,
+.list-view a {
+    margin: .5rem 0;
+}
+.list-view a {
+    margin-top: .5rem;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.contact,
+.social,
+.development {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}

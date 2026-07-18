@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Microsoft Corporation",
+    "address": "1300 Wilson Blvd, Arlington, VA 22209",
+    "phone": "(703) 286-8000",
+    "website": "https://www.microsoft.com",
+    "image": "microsoft.webp",
+    "membership": 3,
+    "industry": "Technology",
+    "description": "Global technology company providing cloud computing, software, and business solutions."
+  },
+  {
+    "name": "Lost Dog Cafe",
+    "address": "2920 Columbia Pike, Arlington, VA 22204",
+    "phone": "(703) 237-5605",
+    "website": "https://www.lostdogcafe.com",
+    "image": "lost.webp",
+    "membership": 3,
+    "industry": "Restaurant",
+    "description": "Popular local restaurant serving pizza, sandwiches, and craft beverages."
+  },
+  {
+    "name": "Planet Fitness",
+    "address": "3811 S George Mason Dr, Falls Church, VA 22041",
+    "phone": "(703) 671-7772",
+    "website": "https://www.planetfitness.com",
+    "image": "planet.webp",
+    "membership": 2,
+    "industry": "Fitness",
+    "description": "Fitness center offering affordable memberships and modern exercise equipment."
+  },
+  {
+    "name": "Shake Shack Ballston",
+    "address": "4201 Wilson Blvd, Arlington, VA 22203",
+    "phone": "(703) 243-2929",
+    "website": "https://www.shakeshack.com",
+    "image": "shake.webp",
+    "membership": 2,
+    "industry": "Restaurant",
+    "description": "American fast-casual restaurant known for burgers, fries, and milkshakes."
+  },
+  {
+    "name": "Chick-fil-A",
+    "address": "4501 Fairfax Dr, Arlington, VA 22203",
+    "phone": "(703) 528-1220",
+    "website": "https://www.chick-fil-a.com",
+    "image": "chiken.webp",
+    "membership": 1,
+    "industry": "Restaurant",
+    "description": "Fast-food restaurant specializing in chicken sandwiches and customer service."
+  },
+  {
+    "name": "Unstuck Labs",
+    "address": "1100 N Glebe Rd, Arlington, VA 22201",
+    "phone": "(571) 444-5555",
+    "website": "https://www.unstucklabs.com",
+    "image": "unstuck.webp",
+    "membership": 3,
+    "industry": "Technology",
+    "description": "Innovation studio helping startups and organizations build digital products."
+  },
+  {
+    "name": "Brooklyn Bagel Bakery",
+    "address": "2055 Wilson Blvd, Arlington, VA 22201",
+    "phone": "(703) 248-9888",
+    "website": "https://www.brooklynbagelbakery.com",
+    "image": "bagel.webp",
+    "membership": 1,
+    "industry": "Bakery",
+    "description": "Local bakery offering freshly baked bagels, pastries, and breakfast sandwiches."
+  }
+]
