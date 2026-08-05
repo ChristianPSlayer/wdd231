@@ -1,0 +1,38 @@
+body{
+    font-family: "Poppins", sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #F8FAFC;
+    color: #333;
+}
+
+header{
+    background:#0F4C81;
+    color:white;
+    padding:1rem;
+    text-align:center;
+    border-radius:10px;
+}
+
+section{
+    background:white;
+    padding:1.5rem;
+    margin:1.5rem 0;
+    border-left:6px solid #1F6E43;
+    border-radius:8px;
+}
+
+h1,h2{
+    color:#0F4C81;
+}
+
+img{
+    max-width:100%;
+    border:1px solid #ccc;
+}
+
+footer{
+    text-align:center;
+    margin-top:2rem;
+}
