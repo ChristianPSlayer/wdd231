@@ -531,3 +531,87 @@ dialog::backdrop {
 .thankyou-info p {
     margin: .75rem 0;
 }
+
+/****** discover *******/
+
+
+
+#discover-grid section {
+   display: flex;
+   flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1rem;
+    background: white;
+}
+
+#discover-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#discover-grid button {
+    margin-top: 1rem;
+    padding: .7rem 1rem;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: auto;
+}
+
+
+/***** Cards ********/
+
+#discover-grid {
+    display: grid;
+     grid-template-columns: 1fr;
+    gap: 1rem;
+
+    grid-template-areas:
+        "card1"
+        "card2"
+        "card3"
+        "card4"
+        "card5"
+        "card6"
+        "card7"
+        "card8";
+}
+
+.card1 { grid-area: card1; }
+.card2 { grid-area: card2; }
+.card3 { grid-area: card3; }
+.card4 { grid-area: card4; }
+.card5 { grid-area: card5; }
+.card6 { grid-area: card6; }
+.card7 { grid-area: card7; }
+.card8 { grid-area: card8; }
+
+
+#visit-message{
+    background:#eaf4ff;
+    color:#0F4C81;
+    padding:1rem;
+    border-left:5px solid #0F4C81;
+    margin:1rem 0 2rem;
+    border-radius:8px;
+    font-weight:600;
+}
+
+#discover-grid button {
+    margin-top: 1rem;
+    padding: .75rem 1.25rem;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+#discover-grid button:hover {
+    background: var(--secondary-color);
+}
