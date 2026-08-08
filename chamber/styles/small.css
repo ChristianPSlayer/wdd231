@@ -109,6 +109,10 @@ header {
 .logo p {
     font-size: .9rem;
 }
+.logo img {
+    width: 60px;
+    height: auto;
+}
 
 
 
