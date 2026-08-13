@@ -1,3 +1,5 @@
+import { formatTopic } from "./utils.js";
+
 const safetyGrid = document.querySelector("#safety-grid");
 const favoriteTip = document.querySelector("#favorite-tip");
 const savedPreference = document.querySelector("#saved-preference");
@@ -78,9 +80,10 @@ function savePreference() {
 
 function displaySavedPreference(preference) {
 
-    const formattedPreference = preference
-        .replace("-", " ")
-        .replace(/\b\w/g, (letter) => letter.toUpperCase());
+    const formattedPreference = formatTopic(preference);
+    savedPreference.textContent = `Your favorite safety topic is: ${formattedPreference}.`
+    
+
 
     savedPreference.textContent =
         `Your favorite safety topic is: ${formattedPreference}.`;
