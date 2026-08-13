@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Safety Tips | Delivery E-Bike Guide</title>
+
+    <meta name="description"
+        content="Practical safety tips for e-bike delivery riders, including night riding, weather, battery care, and road safety.">
+
+    <meta name="author" content="Christian Pena">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <meta property="og:title" content="Safety Tips | Delivery E-Bike Guide">
+    <meta property="og:description"
+        content="Learn practical safety tips for e-bike delivery riders.">
+    <meta property="og:image"
+        content="https://christiansplayer.github.io/wdd231/final/images/hero.webp">
+    <meta property="og:url"
+        content="https://christiansplayer.github.io/wdd231/final/safety.html">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script type="module" src="scripts/safety.js"></script>
+    <script src="scripts/navigation.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            <img src="images/logo.webp"
+                alt="Delivery E-Bike Guide logo"
+                width="60"
+                height="60">
+
+            <div>
+                <span>Delivery E-Bike</span>
+                <p>Guide</p>
+            </div>
+        </div>
+
+        <button id="menu" aria-label="Open navigation menu"></button>
+
+        <nav id="navigation">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="equipment.html">Equipment</a>
+                </li>
+
+                <li>
+                    <a href="safety.html" class="active">Safety</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="page-intro">
+
+            <h1>Safety Tips</h1>
+
+            <p>
+                Practical advice to help delivery riders stay safe
+                while riding an e-bike.
+            </p>
+
+        </section>
+
+
+        <section class="safety-grid" id="safety-grid">
+
+        </section>
+
+
+        <section class="safety-preferences">
+
+            <h2>Your Safety Preferences</h2>
+
+            <label for="favorite-tip">
+                Choose your favorite safety topic:
+            </label>
+
+            <select id="favorite-tip">
+
+                <option value="">Select a topic</option>
+
+                <option value="night">
+                    Night Riding
+                </option>
+
+                <option value="weather">
+                    Weather
+                </option>
+
+                <option value="battery">
+                    Battery Safety
+                </option>
+
+                <option value="traffic">
+                    Traffic Safety
+                </option>
+
+            </select>
+
+            <p id="saved-preference"></p>
+
+        </section>
+
+        <section class="feedback-section">
+
+    <h2>Rider Feedback</h2>
+
+    <p>
+        Share your experience and tell us what matters most
+        when riding an e-bike for delivery.
+    </p>
+
+    <form action="form-action.html" method="get">
+
+        <label for="name">Full Name</label>
+        <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            autocomplete="name">
+
+        <label for="email">Email Address</label>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            autocomplete="email">
+
+        <label for="bike">E-Bike Type</label>
+
+        <select id="bike" name="bike" required>
+            <option value="">Select an option</option>
+            <option value="fat-tire">Fat Tire E-Bike</option>
+            <option value="commuter">Commuter E-Bike</option>
+            <option value="cargo">Cargo E-Bike</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label for="experience">Delivery Experience</label>
+
+        <select id="experience" name="experience" required>
+            <option value="">Select an option</option>
+            <option value="beginner">Less than 1 year</option>
+            <option value="intermediate">1–3 years</option>
+            <option value="experienced">More than 3 years</option>
+        </select>
+
+        <fieldset>
+
+            <legend>What is most important to you?</legend>
+
+            <label>
+                <input
+                    type="checkbox"
+                    name="priority"
+                    value="safety">
+                Safety
+            </label>
+
+            <label>
+                <input
+                    type="checkbox"
+                    name="priority"
+                    value="battery">
+                Battery Life
+            </label>
+
+            <label>
+                <input
+                    type="checkbox"
+                    name="priority"
+                    value="comfort">
+                Comfort
+            </label>
+
+            <label>
+                <input
+                    type="checkbox"
+                    name="priority"
+                    value="equipment">
+                Equipment
+            </label>
+
+        </fieldset>
+
+        <label for="comments">Additional Comments</label>
+
+        <textarea
+            id="comments"
+            name="comments"
+            rows="5"
+            placeholder="Share your experience..."></textarea>
+
+        <button type="submit">
+            Submit Feedback
+        </button>
+
+    </form>
+
+</section>
+
+
+
+
+
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            &copy; <span id="currentyear"></span>
+            Delivery E-Bike Guide
+        </p>
+
+        <p>
+            <a href="attributions.html">Attributions</a>
+        </p>
+
+        <p>
+            <a href="#">Project Video</a>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

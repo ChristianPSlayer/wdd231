@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Full-Face Helmet",
+        "category": "Safety",
+        "price": 85,
+        "rating": 4.8,
+        "description": "A protective helmet designed to help protect riders during daily delivery work."
+    },
+    {
+        "id": 2,
+        "name": "Delivery Backpack",
+        "category": "Delivery Gear",
+        "price": 75,
+        "rating": 4.7,
+        "description": "An insulated backpack designed to carry food and other delivery items."
+    },
+    {
+        "id": 3,
+        "name": "Phone Mount",
+        "category": "Bike Accessories",
+        "price": 25,
+        "rating": 4.6,
+        "description": "A handlebar phone mount that keeps navigation visible while riding."
+    },
+    {
+        "id": 4,
+        "name": "Front LED Light",
+        "category": "Safety",
+        "price": 30,
+        "rating": 4.8,
+        "description": "A bright front light that improves visibility during nighttime deliveries."
+    },
+    {
+        "id": 5,
+        "name": "Rear Safety Light",
+        "category": "Safety",
+        "price": 20,
+        "rating": 4.7,
+        "description": "A rear bicycle light designed to make riders more visible to vehicles."
+    },
+    {
+        "id": 6,
+        "name": "Heavy-Duty Bike Lock",
+        "category": "Security",
+        "price": 45,
+        "rating": 4.6,
+        "description": "A strong bicycle lock for securing an e-bike during delivery stops."
+    },
+    {
+        "id": 7,
+        "name": "Cycling Gloves",
+        "category": "Comfort",
+        "price": 22,
+        "rating": 4.5,
+        "description": "Padded cycling gloves that improve grip and comfort during long rides."
+    },
+    {
+        "id": 8,
+        "name": "Waterproof Jacket",
+        "category": "Weather",
+        "price": 60,
+        "rating": 4.7,
+        "description": "A lightweight waterproof jacket designed for riding during rainy weather."
+    },
+    {
+        "id": 9,
+        "name": "Waterproof Pants",
+        "category": "Weather",
+        "price": 50,
+        "rating": 4.5,
+        "description": "Water-resistant pants that help keep riders dry during wet deliveries."
+    },
+    {
+        "id": 10,
+        "name": "Portable Bike Pump",
+        "category": "Maintenance",
+        "price": 28,
+        "rating": 4.6,
+        "description": "A compact pump that can be carried on an e-bike for emergency tire inflation."
+    },
+    {
+        "id": 11,
+        "name": "Emergency Repair Kit",
+        "category": "Maintenance",
+        "price": 35,
+        "rating": 4.8,
+        "description": "A compact kit containing useful tools for basic roadside bicycle repairs."
+    },
+    {
+        "id": 12,
+        "name": "Battery Charger",
+        "category": "Battery",
+        "price": 70,
+        "rating": 4.7,
+        "description": "A compatible e-bike charger for keeping the battery ready for delivery shifts."
+    },
+    {
+        "id": 13,
+        "name": "Reflective Safety Vest",
+        "category": "Safety",
+        "price": 18,
+        "rating": 4.5,
+        "description": "A reflective vest that increases rider visibility in low-light conditions."
+    },
+    {
+        "id": 14,
+        "name": "E-Bike Rearview Mirror",
+        "category": "Bike Accessories",
+        "price": 24,
+        "rating": 4.4,
+        "description": "A rearview mirror that helps riders monitor traffic behind them."
+    },
+    {
+        "id": 15,
+        "name": "Portable Power Bank",
+        "category": "Electronics",
+        "price": 40,
+        "rating": 4.6,
+        "description": "A portable battery pack for keeping a phone charged during long delivery shifts."
+    }
+]

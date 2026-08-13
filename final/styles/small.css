@@ -1,0 +1,288 @@
+:root {
+    --primary-color: #0f4c81;
+    --secondary-color: #1f6e43;
+    --accent-color: #eaf4ff;
+    --background-color: #f8fafc;
+    --text-color: #333333;
+    --heading-color: #083358;
+    --card-background: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    background: var(--primary-color);
+    color: white;
+    padding: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.logo img {
+    width: 60px;
+    height: auto;
+}
+
+.logo p {
+    margin: 0;
+    font-weight: 600;
+}
+
+#menu {
+    display: block;
+    margin-left: auto;
+    margin-top: -45px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+nav {
+    display: none;
+}
+
+nav.open {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+}
+
+nav li {
+    margin: 0.5rem 0;
+}
+
+nav a {
+    display: block;
+    padding: 0.6rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav a:hover,
+nav a.active {
+    background: var(--secondary-color);
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.intro {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+h1,
+h2 {
+    color: var(--heading-color);
+}
+
+.intro h1 {
+    margin-bottom: 0.5rem;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.25rem;
+    background: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background: var(--secondary-color);
+}
+
+.home-sections {
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.home-sections article {
+    background: var(--card-background);
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.home-sections ul {
+    padding-left: 1.25rem;
+}
+
+.home-sections a {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+footer {
+    margin-top: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+    background: var(--primary-color);
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-content {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    background: rgb(0 0 0 / 35%);
+}
+
+.hero-content h1 {
+    margin: 0;
+    color: white;
+    font-size: 2rem;
+}
+
+.hero-content p {
+    color: white;
+    margin: 0.5rem 0;
+}
+
+
+/***** Equipment Page ******/
+
+.page-intro {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.page-intro h1 {
+    margin-bottom: 0.5rem;
+}
+
+.equipment-controls {
+    padding: 0 1rem 1.5rem;
+    text-align: center;
+}
+
+.equipment-controls label {
+    font-weight: 600;
+    margin-right: 0.5rem;
+}
+
+#equipment-filter {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.equipment-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.equipment-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1.25rem;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 8%);
+}
+
+.equipment-card h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.equipment-category {
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+.equipment-card button {
+    padding: 0.65rem 1rem;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.equipment-card button:hover {
+    background: var(--secondary-color);
+}
+
+#equipment-modal {
+    max-width: 500px;
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 30%);
+}
+
+#equipment-modal::backdrop {
+    background: rgb(0 0 0 / 55%);
+}
+
+#modal-close {
+    display: block;
+    margin-left: auto;
+    border: none;
+    background: transparent;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#modal-content h2 {
+    margin-top: 0;
+}

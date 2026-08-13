@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "title": "Wear a Helmet",
+        "category": "Personal Safety",
+        "tip": "Always wear a properly fitted helmet when riding your e-bike.",
+        "importance": "High"
+    },
+    {
+        "id": 2,
+        "title": "Use Bike Lights",
+        "category": "Visibility",
+        "tip": "Use a bright front light and a red rear light when riding at night.",
+        "importance": "High"
+    },
+    {
+        "id": 3,
+        "title": "Stay Visible",
+        "category": "Visibility",
+        "tip": "Wear reflective clothing and use lights to make yourself visible to drivers.",
+        "importance": "High"
+    },
+    {
+        "id": 4,
+        "title": "Check Your Brakes",
+        "category": "Maintenance",
+        "tip": "Inspect your brakes regularly and make sure they respond correctly before riding.",
+        "importance": "High"
+    },
+    {
+        "id": 5,
+        "title": "Check Your Tires",
+        "category": "Maintenance",
+        "tip": "Check tire pressure and look for damage before starting a delivery shift.",
+        "importance": "Medium"
+    },
+    {
+        "id": 6,
+        "title": "Watch for Traffic",
+        "category": "Traffic",
+        "tip": "Stay alert and watch for vehicles, pedestrians, and other cyclists.",
+        "importance": "High"
+    },
+    {
+        "id": 7,
+        "title": "Follow Traffic Laws",
+        "category": "Traffic",
+        "tip": "Follow traffic signals, signs, and bicycle laws while making deliveries.",
+        "importance": "High"
+    },
+    {
+        "id": 8,
+        "title": "Avoid Distracted Riding",
+        "category": "Traffic",
+        "tip": "Do not use your phone while your e-bike is moving.",
+        "importance": "High"
+    },
+    {
+        "id": 9,
+        "title": "Ride Carefully in Rain",
+        "category": "Weather",
+        "tip": "Reduce your speed and increase your stopping distance on wet roads.",
+        "importance": "Medium"
+    },
+    {
+        "id": 10,
+        "title": "Protect Your Battery",
+        "category": "Battery",
+        "tip": "Keep your battery dry and follow the manufacturer's charging instructions.",
+        "importance": "High"
+    },
+    {
+        "id": 11,
+        "title": "Plan Your Route",
+        "category": "Planning",
+        "tip": "Check your route before riding and choose safer streets whenever possible.",
+        "importance": "Medium"
+    },
+    {
+        "id": 12,
+        "title": "Keep Both Hands Ready",
+        "category": "Riding",
+        "tip": "Keep both hands available for controlling the bicycle whenever possible.",
+        "importance": "Medium"
+    },
+    {
+        "id": 13,
+        "title": "Slow Down at Intersections",
+        "category": "Traffic",
+        "tip": "Reduce your speed near intersections and check carefully for turning vehicles.",
+        "importance": "High"
+    },
+    {
+        "id": 14,
+        "title": "Take Regular Breaks",
+        "category": "Health",
+        "tip": "Take breaks during long delivery shifts to maintain concentration and energy.",
+        "importance": "Medium"
+    },
+    {
+        "id": 15,
+        "title": "Secure Your E-Bike",
+        "category": "Security",
+        "tip": "Use a strong lock and secure your e-bike whenever you leave it unattended.",
+        "importance": "High"
+    }
+]
